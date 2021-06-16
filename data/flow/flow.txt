@@ -1,0 +1,3 @@
+The folder for predicted optical flow results from single images.
+
+You can either utilize the official demo from https://github.com/XiaohangZhan/conditional-motion-propagation, or adapt it with random sampling.
