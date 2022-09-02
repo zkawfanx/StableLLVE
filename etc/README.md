@@ -40,12 +40,12 @@ If you use CMP in your research, please cite their paper.
 ## Example
 For example, if you input an image in the `examples/gt/dance-twirl` folder,
 
-![](examples/gt/dance-twirl/00000.png)
+![](examples/gt/dance-twirl/00000.jpg)
 
 an instance segmentation result can be obtained using detectron2, the visualization can be found in the `examples/mask_img/dance-twirl` folder,
 
-![](examples/mask_img/dance-twirl/00000.png)
+![](examples/mask_img/dance-twirl/00000.jpg)
 
 an optical flow can be further obtained using CMP and its visualization is saved in `examples/flow_img/dance-twirl` folder.
 
-![](examples/flow_img/dance-twirl/00000.png)
+![](examples/flow_img/dance-twirl/00000.jpg)

@@ -15,7 +15,7 @@ This is a Pytorch implementation of "Learning Temporal Consistency for Low Light
 #### Training
 First, prepare your own traning data and put it in the folder `./data`. By default, the code takes input images and ground truth from `./data/train` and `./data/gt` and you can also change the path in `train.py` and `dataloader.py`.
 
-Second, you need to predict plausible optical flow for your ground truth images and put it in the folder `./data/flow`. In our paper, we first perform instance segmentation to get object masks using the opensource toolkit **[detectron2](https://github.com/facebookresearch/detectron2)**. Then we utilize the pretrained **[CMP](https://github.com/XiaohangZhan/conditional-motion-propagation)** model to generate the optical flow we need. (A naive prediction code will be here soon.)
+Second, you need to predict plausible optical flow for your ground truth images and put it in the folder `./data/flow`. In our paper, we first perform instance segmentation to get object masks using the opensource toolkit **[detectron2](https://github.com/facebookresearch/detectron2)**. Then we utilize the pretrained **[CMP](https://github.com/XiaohangZhan/conditional-motion-propagation)** model to generate the optical flow we need. The prediction code and example images are updated in `etc` folder.
 
 Finally, you can train models on your own data by running
 ```shell
